@@ -111,6 +111,7 @@
 
   .skill-icon-box {
     display: flex;
+    margin: 80px;
     
   }
   
@@ -124,6 +125,9 @@
   }
 
   .skill-item {
+    flex-wrap: wrap;
+    width: 50%;
+    margin-right: 100px;
     
   }
 
