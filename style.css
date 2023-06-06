@@ -16,7 +16,7 @@ header h2{
 }
 body {
     overflow-x: hidden;
-    
+    /* overflox-y: hidden; */
 }
 
 .main-width {
