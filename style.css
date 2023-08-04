@@ -186,9 +186,8 @@ nav ul li.btn:hover a{
 }
 .image{
     position: absolute;
-    transform: scale(90%);
-    width: 50%;
-    height: 68.5%;
+    transform: scale(100%);
+    margin-bottom: 30px;
     bottom: 0;
     right: 0;
     text-align: right;
@@ -318,7 +317,7 @@ nav ul li.btn:hover a{
     width: 70px;
     z-index: 2;
 }
-.back, .front, .tools, .julie{
+.back, .front, .tools, .julie {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     display: grid;
@@ -327,6 +326,9 @@ nav ul li.btn:hover a{
     text-align: center;
     grid-gap: 2rem;
     
+}
+.julie {
+    margin: 0 100px;
 }
 .others{
     margin-left: 5rem ;
