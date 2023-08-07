@@ -127,7 +127,7 @@ nav ul li.btn:hover a{
 }
 .content .main-text p{
     max-width: 100%;
-    width: 480px;
+    width: 650px;
     color: white;
     line-height: 1.8;
     font-size: 15px;
@@ -164,7 +164,7 @@ nav ul li.btn:hover a{
 .content .main-text a.cta:hover {
     color: black;
     background:white;
-    border: 1px solid white;
+    border: 1px solid blue;
     transition: .4s;
 }
 .content .social {
