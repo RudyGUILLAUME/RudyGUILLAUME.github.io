@@ -395,4 +395,109 @@ nav ul li.btn:hover a{
 
 }
 
+/* Ajoutez ces règles pour rendre le site responsive en utilisant Flexbox */
+@media screen and (max-width: 1400px) {
+    .main-width {
+        max-width: 90%;
+    }
+}
 
+@media screen and (max-width: 990px) {
+    .nav-skills {
+        max-width: 90%;
+    }
+
+    .nav-skills ul:not(.btn) {
+        display: none;
+    }
+
+    .nav-skills ul.btn {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .nav-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill-box {
+    flex: 1 1 calc(33.33% - 2rem);
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1450px) {
+    .image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main-width,
+    .nav-skills,
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-skills ul:not(.btn) {
+        display: none;
+    }
+
+    .nav-skills ul.btn {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-text h1 {
+        font-size: 40px;
+    }
+
+    .content .main-text p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .content .social {
+        margin-top: 20px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        gap: 1rem;
+    }
+
+    .skill-box {
+        flex: none;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .skill-title:after,
+    .skill-title:before {
+        display: none;
+    }
+
+    .floating-image {
+        display: none;
+    }
+}
